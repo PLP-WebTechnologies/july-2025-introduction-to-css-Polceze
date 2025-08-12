@@ -1,0 +1,80 @@
+/* General Page Styling */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4A90E2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Card Sections */
+.card {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    box-sizing: border-box; /* ensures padding & border stay inside set width */
+}
+
+/* Demonstrating the Box Model */
+.card h2 {
+    margin-top: 0;
+}
+
+.card p,
+.card ul {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* Button Styling */
+button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
